@@ -114,3 +114,28 @@ article p:first-child {
 article p:last-child {
   color: rgb(255, 0, 217);
 }
+
+/* select an anchor element that has href attribute*/
+a:link {
+  color: #1098ad;
+  text-decoration: none; /* get rid of underscore line*/
+}
+
+a:visited {
+  /* in practice, we normally set visited color same as the normal state */
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+
+/* This is applied during the duration of the click of the anchor*/
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/* L V H A */
