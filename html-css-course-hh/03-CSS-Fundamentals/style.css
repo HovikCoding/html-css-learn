@@ -138,4 +138,33 @@ a:active {
   font-style: italic;
 }
 
+a {
+  color: red;
+}
+
 /* L V H A */
+
+/* Resolving conflicts*/
+/* #copyright {
+  color: red;
+} */
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p:first-child {
+  color: orange;
+}
+
+footer p {
+  color: green;
+}
+
+/* footer p {
+  color: green !important;
+} */
