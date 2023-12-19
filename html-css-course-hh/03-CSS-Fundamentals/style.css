@@ -1,11 +1,26 @@
+/* universal selector simply select every single element on the page, 
+this is useful if we want a certain style applied to all elements 
+and there is no inheritance involved with it. It has the lowest priority. */
+* {
+  border-left: 10px solid #f1530a;
+}
+
+body {
+  font-family: sans-serif;
+  color: #444;
+
+  /* this will not be applied to all of the child element as it is very impractical*/
+  border-top: 10px solid #1098ad;
+}
+
 h1,
 h2,
 h3,
 h4,
 p,
 li {
-  font-family: sans-serif;
-  color: #444;
+  /* font-family: sans-serif;
+  color: #444; */
 }
 
 h1,
@@ -168,3 +183,13 @@ footer p {
 /* footer p {
   color: green !important;
 } */
+
+/* This can be replaced as below:*/
+/* nav a:link,
+nav p {
+  font-size: 18px;
+} */
+
+nav {
+  font-size: 18px;
+}
